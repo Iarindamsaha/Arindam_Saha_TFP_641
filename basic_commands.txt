@@ -1,0 +1,90 @@
+>>Linux is a open source operating system, it ssupports multiusers and its also free, for being open source anyone can change the source code of linux and
+  make their own version of linux. some flavours of linux are : ubuntu, fedora etc.
+>>kernal is the medium between the system and the hardware.
+>>shell is an interpriter which converts the input signals from the user to machine code for kernal to understand what user want and perform the tasks.
+
+
+
+1. mkdir = mkdir or makedirectory is used to create a new diirectory 
+To use mkdir type mkdir <folder name> then press enter
+example mkdir BridgeLabzPractice 
+
+2. cd = cd is used to change the directory 
+To use cd type cd <directory path> press enter
+example cd test1
+
+3. pwd = it is used to show the present working direcotories
+To use pwd simply type pwd and press enter
+
+4. touch = touch is used to create any kind of files in the terminal
+To use touch type touch <file name>.extension or no extensions
+Example : touch practice.txt or touch practice.pdf
+
+5. rm = it is used to delete files
+to use rm type rm <filename>
+
+6. rmdir/ rm -r = it is used to delete folder with the files in it 
+-r stands for recursive fucntion because some file may not get deleted in the first place thats why it is used to recursively delete all those files.
+
+7.ls = ls command is used to list all the files and folder which are present in the directory
+types of ls 
+ls -1 is used to list the files and folder in one line format
+ls -l to list the files only in long format
+ls -al to list all the files and folders in long format
+ls -a -l ~ to list all the home directories 
+
+~ use to access the home directory 
+/ used to access the root directory 
+
+what is shell ?
+shell is a mediator between the user and the kernal.
+
+8. echo = echo command is used to repeat or print the following path
+Example : echo "this is a echo" then enter
+
+9. cat = cat is use to display the contents of a file .
+Example cat data.csv
+
+10. less = less is used to show a file but we can browse the file using spacebar and press q to exit the file
+Example : less <file name> press enter
+
+11. head = head is used to print only first 10 line of a file 
+Example : head <file name> also we can add arguments with head 
+Example : head -12 <file name>
+
+12. tail = we use tail to print a file from the last 10 lines 
+
+13. -v = its verbose function mainly used to reverse the argument and then give the result 
+
+14. find = we use find command to find something in in a directory some files.
+Example : find . -name "*.pdf" ( . represents here present directory)
+
+types of file  to be find 
+-type f {for files} -type d{for directoris}
+by name -name
+by size -sixe Example : find . -size +5M
+empty file - find . -empty
+
+15. grep = Global regular expression print it is used to search some patterns
+Example : grep "CAPTAIN" data.csv
+
+grep -i is used to ignore any cases lower or upper 
+
+16. pipe = pipe is using to joint functionality of two commands together 
+| symbol represents pipe 
+Example : ls | grep / {here we are listing the directories only using grep and piping it with listing}
+
+17. du = du is used to print the disk usage 
+du -sh {human readible}
+du -sk {in kilobites}
+du -sm {in megabites}
+Example: du -sh * {* represents all types of files here}
+
+Sorting disk usage 
+
+du -sh | -sort -n {in numeric format}
+du -sh | -sort -nr {in reverse numeric format}
+
+18. env = environment variable is used to print out all the constant variables.
+env press enter
+
